@@ -1,0 +1,25 @@
+{
+    "name": "xtlsoft/overnet",
+    "description": "Global data over network (for PHP)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Tianle Xu",
+        "email": "xtl@xtlsoft.top"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Overnet\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Saphon\\Tests\\": "./tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "vimeo/psalm": "^3.4",
+        "phpunit/phpunit": "^8.2"
+    }
+}
